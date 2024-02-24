@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 100%;
+    list-style: none;
+  }
+  .container{
+    width: 100%;
+    max-width: 1440px;
+    background: #FFF;
+    padding: 0;
+  }
+
+  .navbar_menu {
+    background-color: #FFF;
+}
+.navbar {
+    display: flex;
+    padding: 0;
+}
+.navbar-brand{
+    margin: 0;
+    margin-left: 6.5%;
+    margin-top: 0.2%;
+    margin-right: 13.5%;
+}
+
+.navbar_right{
+    display: flex;
+      margin: 0;
+margin-top: 1%;
+margin-left: 20.2%;
+
+}
+
+.container-fluid {
+}
+.brand {
+    color: rgb(47, 46, 46);
+    font-family: 'Barlow';
+    font-size: 2.625em;
+    font-weight: 600;
+    line-height: 3.125;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.navbar-nav {
+    padding: 0;
+    margin: 0;
+    margin-left: -17%;
+}
+.mb-lg-0 {
+}
+.nav-item {
+    color: rgb(47, 46, 46);
+    font-family: 'Inter';
+    font-size: 1.25em;
+    font-weight: 400;
+    line-height: 1.5em;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-right: 10%;
+}
+
+.d-flex {
+    margin: 0;
+    margin-left: 20%;
+    margin-right: 0;
+    
+}
+.form-control {
+    width: 150%;
+    margin-right: 0;
+}
+.me-2 {
+    margin-right: 0;
+    
+}
+.btn {
+    margin-right: 0;
+    
+}
+.header_flex {
+    display: flex;
+    margin-top: 3%;
+}
+.h_left {
+}
+.h_block {
+
+    max-height: 550px;
+    position: absolute;
+    width: 47.98611111111111%;
+    height: 62%;
+    left: 0;
+    right: 52.01388888888889%;
+    top: 32%;
+    bottom: -2%;
+    background: linear-gradient(91.60deg, rgba(244, 246, 245, 0.9) -8.202%,rgba(255, 255, 255, 0.9) 132.884%);
+}
+.h_block h1{
+    font-size: 5em;
+    color: rgb(47, 46, 46);
+    font-family: 'Arimo';
+    font-size: 3.25em;
+    font-weight: 400;
+    line-height: 1.2em;
+    letter-spacing: 0%;
+    margin-left: 14.5%;
+    margin-right: 15%;
+    margin-top: 19.5%;
+    margin-bottom: 3.4%;
+}
+.h_block p{
+    color: rgb(47, 46, 46);
+    font-family: 'Inter';
+    font-size: 2em;
+    font-weight: 200;
+    line-height: 1.35em;
+    letter-spacing: 0%;
+    margin-left: 14.5%;
+    margin-right: 26%;
+    text-align: justify;
+
+}
+.h_right {
+    margin-left: 20%;
+}
+.head_img{
+background-image: url('images/header.png');
+background-size: cover;
+background-position: center;
+width: 100%;
+height: 100%;
+}
+
+
+@media screen and (max-width:1200px){
+    .navbar-brand{
+        margin-right: 5%;
+            }
+    .h_block{
+        top: 20%;
+    }
+}
+@media screen and (max-width:991px){
+.form-control{
+    align-self: center;
+    height: 20%;
+}
+.h_block{
+    margin-top: 12%;
+    max-height: 400px;
+}
+.h_block h1{
+    font-size: 2em;
+}
+.h_block p{
+    font-size: 1.5em;
+}
+}
+@media screen and (max-width:764px){
+    .h_block{
+        margin-top: 28%;
+        max-height: 300px;
+    }
+    .h_block h1{
+        font-size: 1.5em;
+    }
+    .h_block p{
+        font-size: 1em;
+    }
+}
+@media screen and (max-width:600px){
+    .h_block{
+        margin-top: 35%;
+        max-height: 250px;
+    }
+}
+@media screen and (max-width:450px){
+    .h_block{
+        margin-top: 45%;
+        max-height: 200px;
+    }
+    .h_block h1{
+        font-size: 1.25em;
+        margin-top: 5%;
+    }
+    .h_block p{
+        font-size: 0.8em;
+    }
+}
+@media screen and (max-width:360px){
+    .h_block{
+        margin-top: 55%;
+        max-height: 135px;
+    }
+    .h_block h1{
+        font-size: 1em;
+        margin-top: 5%;
+        margin-left: 3%;
+        margin-left: 3%;
+    }
+    .h_block p{
+        font-size: 0.65em;
+        margin-left: 3%;
+        margin-left: 3%;
+    }
+}
