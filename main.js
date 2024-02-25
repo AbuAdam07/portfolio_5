@@ -18,6 +18,6 @@ function findLocation() {
   }
 
   function error() { // если всё плохо, просто напишем об этом
-    status.textContent = 'Я тебе всё равно найду!:0';
+    status.textContent = 'Я тебя всё равно найду!:0';
   }
 }
