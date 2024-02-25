@@ -95,7 +95,7 @@ margin-left: 20.2%;
     height: 62%;
     left: 0;
     right: 52.01388888888889%;
-    top: 32%;
+    top: 28.5%;
     bottom: -2%;
     background: linear-gradient(91.60deg, rgba(244, 246, 245, 0.9) -8.202%,rgba(255, 255, 255, 0.9) 132.884%);
 }
@@ -112,6 +112,7 @@ margin-left: 20.2%;
     margin-top: 19.5%;
     margin-bottom: 3.4%;
 }
+
 .h_block p{
     color: rgb(47, 46, 46);
     font-family: 'Inter';
@@ -134,15 +135,218 @@ background-position: center;
 width: 100%;
 height: 100%;
 }
+.our_services{
+    margin-top: -3.5%;
+}
+ .our_services .container {
+    background: rgba(37, 77, 77, 0.2);
+  }
+.our_services h1{
+    text-align: center;
+    font-size: 5em;
+    color: rgb(47, 46, 46);
+    font-family: 'Arimo';
+    font-size: 3.25em;
+    font-weight: 400;
+    line-height: 1.2em;
+    letter-spacing: 0%;
+    
+}
+.our_ser {
+    margin-top: 3.5%;
+    padding: 1%;
+    
+}
+.our_services_flex {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.services_item {
+}
+.item_svg {
+    background: rgb(37, 77, 77);
+    border-radius: 50%;
+}
+.services_item h2{
+    color: rgb(47, 46, 46);
+    font-family: Arimo;
+    font-size: 1.6875em;
+    font-weight: 400;
+    line-height: 1.9375em;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: -2%;
+}
+.services_item p{
+    color: rgb(47, 46, 46);
+    font-family: Arimo;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.2em;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 60%;  
+    margin-top: -2%;
+    margin-bottom: 25%;
+}
+.about_us {
+    margin-top: 5.2%;
+    margin-left: 7%;
+}
+.about_flex {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+.about_right {
+    margin-left: 6.3%;
+    margin-top: 2.25%;
+}
+.about_h1 {
+    font-size: 5em;
+    color: rgb(47, 46, 46);
+    font-family: 'Arimo';
+    font-size: 3.25em;
+    font-weight: 400;
+    line-height: 1.2em;
+    letter-spacing: 0%;
+}
+.about_h2 {
+    color: rgb(47, 46, 46);
+    font-family: Arimo;
+    font-size: 1.95em;
+    font-weight: 400;
+    line-height: 1.45em;
+    letter-spacing: 0%;
+    margin-top: -1%;
+    width: 80%;
+    margin-left: 0%;
+    margin-bottom: 9%;
+}
+.about_a {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(47, 46, 46);
+    font-family: Inter;
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 1.8125em;
+    letter-spacing: 0%;
+}
+.projects_h1 {
+    font-size: 5em;
+    color: rgb(47, 46, 46);
+    font-family: 'Arimo';
+    font-size: 3.25em;
+    font-weight: 400;
+    line-height: 1.2em;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 6.5%;
+    margin-left: 7%;
+}
+.projects_grid {
+    margin-top: 5.4%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 0%;
+    grid-row-gap: 13.5%;
+    margin-left: 3.3%;
+    margin-right: 3.3%;
+}
 
+.grid_p {
+    color: rgb(47, 46, 46);
+    font-family: Arimo;
+    font-size: 1.125em;
+    font-weight: 400;
+    line-height: 1.2em;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 60%;
+    margin-top: 4%;
+}
+.testimonial {
+    margin-top: 10.5%;
+}
+.testimonial_h1 {
+    text-align: center;
+    font-size: 5em;
+    color: rgb(47, 46, 46);
+    font-family: 'Arimo';
+    font-size: 3.25em;
+    font-weight: 400;
+    line-height: 1.2em;
+    letter-spacing: 0%;
+}
+.testimonial_flex {
+    display: flex;
+    justify-content: center;
+    margin-left: 7%;
+    margin-top: 5.8%;
+}
+.test_inside {
+    display: flex;
+    justify-content: center;
+}
+.test_text{
+    margin-left: 4%;
+
+}
+.test_img {
+}
+.test_h2 {
+    color: rgb(47, 46, 46);
+    font-family: Arimo;
+    font-size: 1.75em;
+    font-weight: 400;
+    line-height: 2em;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.test_p {
+    color: rgb(47, 46, 46);
+    font-family: Arimo;
+    font-size: 1.1em;
+    font-weight: 400;
+    line-height: 1.25em;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 60%;
+    margin-left: 0%;
+}
 
 @media screen and (max-width:1200px){
     .navbar-brand{
         margin-right: 5%;
             }
     .h_block{
-        top: 20%;
+        top: 15%;
     }
+    .about_us{
+        margin-left: 5%;
+    }
+    .about_img{
+        width: 45%;
+    }
+    .projects_grid{
+        grid-template-columns: 1fr 1fr ;
+        grid-row-gap: 5%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .projects_h1{
+        text-align: center;
+    }
+    .grid_img {
+        width: 110%;
+    }
+    .test_img {
+        width: 30%;
+        height: 80%;
+    }
+
 }
 @media screen and (max-width:991px){
 .form-control{
@@ -150,20 +354,80 @@ height: 100%;
     height: 20%;
 }
 .h_block{
+    top: 12%;
     margin-top: 12%;
     max-height: 400px;
 }
 .h_block h1{
     font-size: 2em;
 }
+.our_services h1{
+    font-size: 2em;
+}
+.services_item h2{
+    font-size: 1.5em;
+}
+.services_item p{
+    font-size: 0.8em;
+}
 .h_block p{
     font-size: 1.5em;
 }
+.about_h1 {
+    font-size: 2em;
+}
+.about_h2 {
+    font-size: 1.5em;
+}
+.about_a {
+    font-size: 1.25em;}
+
+.projects_grid{
+    grid-template-columns: 1fr;
+    grid-row-gap: 0%;
+    margin-left: -20%;
+    }
+    .grid_img {
+        width: 180%;
+        
+    }
+    .grid_p{
+        margin-left: 65%;
+    }
+.projects_h1{
+    font-size: 2em;
+}
+.grid_p{
+    font-size: 1em;
+}
+.test_img {
+    height: 60%;
+    width: 40%;
+}
+.testimonial {
+    margin-top: 5%;
+}
+.testimonial_h1{
+    font-size: 2em;
+}
+.testimonial_flex{
+    margin-left: 4%;
+    margin-top: 3%;
+}
+.test_h2{
+    font-size: 1.5em;
+}
+.test_p{
+    font-size: 0.9em;
+    width: 90%;
+} 
+
 }
 @media screen and (max-width:764px){
     .h_block{
         margin-top: 28%;
         max-height: 300px;
+        top: 22%;
     }
     .h_block h1{
         font-size: 1.5em;
@@ -171,12 +435,103 @@ height: 100%;
     .h_block p{
         font-size: 1em;
     }
+    .our_services h1{
+        font-size: 1.5em;
+    }
+    .services_item h2{
+        font-size: 1em;
+    }
+    .services_item p{
+        font-size: 0.7em;
+    }
+    .about_h1 {
+        font-size: 1.5em;
+    }
+    .about_h2 {
+        font-size: 1em;
+    }
+    .about_a {
+        font-size: 0.85em;
+    
+    }
+    .projects_grid{
+        grid-template-columns: 1fr;
+        grid-row-gap: 0%;
+        margin-left: -15%;
+        }
+        .grid_img {
+            width: 140%;
+            
+        }
+        .grid_p{
+            margin-left: 40%;
+        }
+        .projects_h1{
+            font-size: 1.5em;
+        }
+        .grid_p{
+            font-size: 0.8em;
+        }
+        .test_img {
+            height: 60%;
+            width: 40%;
+        }
+        .testimonial {
+            margin-top: 3%;
+        }
+        .testimonial_h1{
+            font-size: 1.5em;
+        }
+        .testimonial_flex{
+            margin-left: 4%;
+            margin-top: 3%;
+        }
+        .test_h2{
+            font-size: 1em;
+        }
+        .test_p{
+            font-size: 0.75em;
+            width: 90%;
+        }  
 }
 @media screen and (max-width:600px){
     .h_block{
         margin-top: 35%;
         max-height: 250px;
     }
+    .item_svg{
+        width: 35%;
+    }
+    .about_flex{
+        flex-direction: column;
+        margin-left: 0;
+        text-align: center;
+    }
+    .about_right{
+        margin: 0 auto;
+    }
+    .about_h2{
+        margin: 0 auto;
+        margin-bottom: 4%;
+    }
+    .about_img{
+        width: 70%;
+    }
+    .projects_grid{
+        grid-template-columns: 1fr;
+        grid-row-gap: 0%;
+        margin-left: 0%;
+        }
+        .grid_img {
+            width: 110%;
+        }
+        .grid_p{
+            margin-left: 25%;
+        }
+        .testimonial_flex{
+            flex-direction: column;
+        }
+        
 }
 @media screen and (max-width:450px){
     .h_block{
@@ -190,6 +545,47 @@ height: 100%;
     .h_block p{
         font-size: 0.8em;
     }
+    .our_services h1{
+        font-size: 1.25em;
+    }
+    .services_item h2{
+        font-size: 0.8em;
+    }
+    .services_item p{
+        font-size: 0.6em;
+    }
+    .about_h1 {
+        font-size: 1.25em;
+    }
+    .about_h2 {
+        font-size: 0.8em;
+    }
+    .about_a {
+        font-size: 0.7em;
+    
+    }
+    .grid_img {
+        width: 100%;
+    }
+    .grid_p{
+        margin-left: 22%;
+    }
+    .projects_h1{
+        font-size: 1.25em;
+    }
+    .grid_p{
+        font-size: 0.7em;
+    }
+    .testimonial_h1{
+        font-size: 1.25em;
+    }
+    .test_h2{
+        font-size: 0.9em;
+    }
+    .test_p{
+        font-size: 0.7em;
+        width: 100%;
+    }   
 }
 @media screen and (max-width:360px){
     .h_block{
@@ -207,4 +603,38 @@ height: 100%;
         margin-left: 3%;
         margin-left: 3%;
     }
+    .our_services h1{
+        font-size: 1em;
+    }
+    .services_item h2{
+        font-size: 0.65em;
+    }
+    .services_item p{
+        font-size: 0.5em;
+    }
+    .about_h1 {
+        font-size: 1em;
+    }
+    .about_h2 {
+        font-size: 0.65em;
+    }
+    .about_a {
+        font-size: 0.5em;
+    
+    }
+    .projects_h1{
+        font-size: 1em;
+    }
+    .grid_p{
+        font-size: 0.65em;
+    }
+    .testimonial_h1{
+        font-size: 1em;
+    }
+    .test_h2{
+        font-size: 0.75em;
+    }
+    .test_p{
+        font-size: 0.6em;
+    }    
 }
